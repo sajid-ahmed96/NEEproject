@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.hideOverflow {
+    overflow: hidden;
+}
+
+.customSize {
+    width: 40px;
+    height: 40px;
+}
+
+.customContainer {
+    background-image: url(Images/11.jfif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customHeight {
+    height: 40vh;
+    width: 100vh;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.customColor {
+    background-color: gainsboro;
+}
+
+.red {
+    height: 2px;
+    width: 100%;
+    background-color: red;
+}
+
+.yellow {
+    height: 2px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.green {
+    height: 2px;
+    width: 100%;
+    background-color: lime;
+}
+
+.blue {
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+}
+
+.bgCustomLinear {
+    background-color: #301900cc;
+}
+
+.customRounded {
+    border-radius: 6px;
+}
+
+.sideMenu {
+    width: 100%;
+}
+
+.sideMenu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 12px;
+}
+
+.sideMenu ul li a:hover {
+    color: yellow;
+    transition: ease-out 0.9s;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.customeHeadingColor {
+    color: white;
+}
+
+.slogan {
+    padding: 20px 40px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #301900cc;
+}
+
+.customWidth {
+    width: 100px;
+}
+
+/* For portfolio page */
+.backgroundLogoOpacity {
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.backgroundLogo {
+    background-image: url(images/320344907_540955877917022_20582739911925526_n.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    background-attachment: fixed;
+}
+
+th {
+    width: 40vw;
+    height: 40px;
+    background-color: #301900cc;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+tr:hover {
+    background-color: #30190034;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    cursor: default;
+}
+
+/* For services page */
+
+.blueBox {
+    border: 1px solid black;
+    background-color: #301900cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+}
+
+.cardBox1 {
+    /* background-color: black; */
+    width: 100%;
+    height: 430px;
+}
+
+/* For about us */
+
+
+/*for contact form */
+
+
+.backgroundImage {
+    background-image: url(images/320344907_540955877917022_20582739911925526_n.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+}
+
+.backgroundImageOpacity {
+    opacity: .8;
+}
+
+.form {
+    background-color: #301900cc;
+    color: white;
+    border-radius: 8px;
+    margin: 0px auto;
+    width: 95%;
+    height: 100%;
+}
+
+label {
+    width: 120px;
+}
+
+.customInp {
+    width: 50%;
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 20px;
+}
+
+.formLine {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.txtCustomWidth {
+    width: 50%;
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 20px;
+}
+
+.customFormButton {
+    background-color: #30190088;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: ease-in 0.5s;
+}
+
+.customFormButton:hover {
+    background-color: #301900cc;
+    transition: ease-out 0.5s;
+}
+
+
+@media only screen and (max-width: 250px) {
+
+    .customCol {
+        display: none;
+        margin: 0 auto;
+    }
+
+    .txtCustomWidth {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+
+    .customCol {
+        display: none;
+        margin: 0 auto;
+    }
+
+    .txtCustomWidth {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+
+    .customCol {
+        width: 100%;
+    }
+
+    .txtCustomWidth {
+        width: 100%;
+    }
+}
